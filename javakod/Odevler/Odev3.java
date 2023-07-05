@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Odev3 {
 
 	public static void main(String[] args) {
-		//Kullanýcýdan vize ve final notlarýný alýnýz notun harf karþýlýðýný if-else if 
-		//bloklarýný kullanarak yazdýrýnýz.
+		//Kullanï¿½cï¿½dan vize ve final notlarï¿½nï¿½ alï¿½nï¿½z notun harf karï¿½ï¿½lï¿½ï¿½ï¿½nï¿½ if-else if 
+		//bloklarï¿½nï¿½ kullanarak yazdï¿½rï¿½nï¿½z.
 
 		Scanner scan = new Scanner(System.in);
 
@@ -14,37 +14,37 @@ public class Odev3 {
 		int vize = scan.nextInt();
 
 		System.out.println("Final notunuzu giriniz:");
-		int fýnal = scan.nextInt();
+		int fÄ±nal = scan.nextInt();
 
-		double not = (vize * 0.4) + (fýnal * 0.6);
-		System.out.println("Yýl sonu notunuzu giriniz =" + not);
+		double not = (vize * 0.4) + (fÄ±nal * 0.6);
+		System.out.println("Yï¿½l sonu notunuz=" + not);
 
-		if (90 <= not && not <= 100) {
-			System.out.println("AA ile geçtiniz");
+		if (90 <= not && not >= 100) {
+			System.out.println("AA ile geï¿½tiniz");
 		}
-		else if (85 <= not && not <= 89) {
-			System.out.println("BA ile geçtiniz");
+		else if (85 <= not && not >= 89) {
+			System.out.println("BA ile geï¿½tiniz");
 		}
-		else if (80 <= not && not <= 84) {
-			System.out.println("BB ile geçtiniz");
+		else if (80 <= not && not >= 84) {
+			System.out.println("BB ile geï¿½tiniz");
 		}
-		else if (75 <= not && not <= 79) {
-			System.out.println("CB ile geçtiniz");
+		else if (75 <= not && not >= 79) {
+			System.out.println("CB ile geï¿½tiniz");
 		}
-		else if (65 <= not && not <= 74) {
-			System.out.println("CC ile geçtiniz");
+		else if (65 <= not && not >= 74) {
+			System.out.println("CC ile geï¿½tiniz");
 		}
-		else if (60 <= not && not <= 64) {
-			System.out.println("DC ile geçtiniz");
+		else if (60 <= not && not >= 64) {
+			System.out.println("DC ile geï¿½tiniz");
 		}
-		else if (55 <= not && not <= 59) {
-			System.out.println("DD ile geçtiniz");
+		else if (55 <= not && not >= 59) {
+			System.out.println("DD ile geï¿½tiniz");
 		}
-		else if (50 <= not && not <= 54) {
-			System.out.println("Þartlý geçtiniz");
+		else if (50 <= not && not >= 54) {
+			System.out.println("ï¿½artlï¿½ geï¿½tiniz");
 		}
 		else {
-			System.out.println("Kaldýnýz");
+			System.out.println("Kaldï¿½nï¿½z");
 		}
 
 	}

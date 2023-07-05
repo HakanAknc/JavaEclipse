@@ -8,7 +8,7 @@ public class Odev1 {
 		greet();
 	} 	
 	public static void greet() {
-		System.out.println("Ýsminiz");
+		System.out.println("Ýsminiz: ");
 		Scanner scanner = new Scanner(System.in);
 		String userName = scanner.nextLine();
 		System.out.println("Hoþgeldin " + userName);

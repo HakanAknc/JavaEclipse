@@ -2,7 +2,7 @@ package Odevler;
 
 import java.util.Scanner;
 
-public class MerhabaIsým {
+public class MerhabaIsÄ±m {
 
 	public static void main(String[] args) {
 		
@@ -10,15 +10,20 @@ public class MerhabaIsým {
 		
 		String isim;
 		
-		System.out.println("Ýsminizi giriniz:");
+		System.out.println("ï¿½sminizi giriniz:");
 		isim = scan.next();
 		
-		System.out.println("javaya Hoþgeldin " + isim);
+		System.out.println("javaya Hoï¿½geldin " + isim);
 		
 		
+		// ï¿½ki sayï¿½nï¿½n toplamï¿½
 		
+		int a = 42;
+		int b = 36;
 		
+		int toplam = a + b;
 		
+		System.out.println("Sayï¿½larï¿½n toplamï¿½ = " + toplam);
 		
 
 	}

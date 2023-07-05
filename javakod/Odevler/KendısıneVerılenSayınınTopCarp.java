@@ -2,27 +2,25 @@ package Odevler;
 
 import java.util.Scanner;
 
-public class KendýsýneVerýlenSayýnýnTopCarp {
+public class KendÄ±sÄ±neVerÄ±lenSayÄ±nÄ±nTopCarp {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int a,b,c;
 		
-		System.out.println("Ýlk sayýyý giriniz:");
+		System.out.println("ï¿½lk sayï¿½yï¿½ giriniz:");
 		a = scan.nextInt();
 		
-		System.out.println("Ýkinci sayýyý giriniz:");
+		System.out.println("ï¿½kinci sayï¿½yï¿½ giriniz:");
 		b = scan.nextInt();
 		
-		System.out.println("Üçüncü sayýyý giriniz:");
+		System.out.println("ï¿½ï¿½ï¿½ncï¿½ sayï¿½yï¿½ giriniz:");
 		c = scan.nextInt();
 		
 		System.out.println(a + b + c);
 		System.out.println(a * b * c);
 		
-		
-		
-		
+
 	}
 
 }

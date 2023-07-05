@@ -11,31 +11,55 @@ public class Not_Hesaplama {
 		System.out.print("Vize notunuzu giriniz:");
 		int vize = scan.nextInt();
 		System.out.print("Final notunuzu giriniz:");
-		int fýnal = scan.nextInt();
+		int fÄ±nal = scan.nextInt();
 
-		double not = (vize * 0.4) + (fýnal * 0.6);
+		double not = (vize * 0.4) + (fÄ±nal * 0.6);
 
-		System.out.println("Yýl sonu notunuz = " + not);
+		if (vize > 100 || fÄ±nal > 100 || vize < 0 || fÄ±nal < 0) {
+			System.out.println("Fazla uï¿½tun ASLAN PARï¿½ASI...");
+		}else {
+			System.out.println("Yï¿½l sonu not ortalamnï¿½z= " + not);
+		}
+		if((not >= 95) && (not <= 100)) {
+			System.out.println("AA ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 90) && (not <= 94)) {
+			System.out.println("BA+ ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 85) && (not <= 89)) {
+			System.out.println("BA ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 80) && (not <= 84)) {
+			System.out.println("BB+ ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 75) && (not <= 79)) {
+			System.out.println("BB ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 70) && (not <= 74)) {
+			System.out.println("CB+ ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 65) && (not <= 69)) {
+			System.out.println("CB ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 60) && (not <= 64)) {
+			System.out.println("CC+ ile dersi geï¿½tiniz.");
+		}
+		else if((not >= 55) && (not <= 59)) {
+			System.out.println("CC ile koï¿½ulu geï¿½tiniz.");
+		}
+		else if((not >= 50) && (not <= 54)) {
+			System.out.println("DC ile koï¿½ulu geï¿½tiniz.");
+		}
+		else if((not >= 45) && (not <= 49)) {
+			System.out.println("DD ile kaldï¿½nï¿½z.");
+		}
+		else if((not >= 40) && (not <= 44)) {
+			System.out.println("FD ile kaldï¿½nï¿½z.");
+		}
+		else if((not < 40)) {
+			System.out.println("FF ile kaldï¿½nï¿½z.");
+		}
+	
+	}	
 
-		if(not > 90) {
-			System.out.println("AA ile dersi geçtiniz.");
-		}
-		else if(not > 85) {
-			System.out.println("BA ile dersi geçtiniz.");
-		}
-		else if(not > 80) {
-			System.out.println("BB ile dersi geçtiniz.");
-		}
-		else if(not > 75) {
-			System.out.println("CB ile dersi geçtiniz.");
-		}
-		else if(not > 50) {
-			System.out.println("Kosullu geçtiniz.");
-		}
-		else {
-			System.out.println("Dersi geçemediniz.");
-		}
-
-	}
-
-}
+}		
